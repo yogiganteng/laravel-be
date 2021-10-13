@@ -59,6 +59,25 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+
+
+
+
+
+
+
+## How to use
+
+- Clone the repository with __git clone__
+- Copy __.env.example__ file to __.env__ and edit database credentials there
+- Run __composer install__
+- Run __php artisan key:generate__
+- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
+- That's it: launch the main URL. 
+
+
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
