@@ -74,8 +74,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 - Run __php artisan key:generate__
 - Run __php artisan migrate --seed__ (it has some seeded data for your testing)
 - That's it: launch the main URL. 
-
-
+ ## lib
+- composer require laravel/passport
+- php artisan migrate
+- php artisan passport:install
+- 
 
 
 ## License
